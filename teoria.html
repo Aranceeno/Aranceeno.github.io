@@ -1,0 +1,75 @@
+<!doctype html>
+
+<html>
+
+	<head>
+		<title>Teoria</title>
+		<link rel="stylesheet" type="text/css" href="Style Sheet.css"/>
+	</head>
+
+	<body>
+		<h1>Bezier Racer</h1>
+		<div>
+			<hr />
+				<center>
+					<a href="index.html">Home</a>
+					<a href="teoria.html">Teoria Applicata</a>
+					<a href="manuale.html">Manuale Utente</a>
+				</center>
+			<hr />
+		</div>
+
+		<center>
+			<h2>Curve di Bezier</h2>
+		</center>
+		<p>
+			Una curva di Bézier è una particolare curva parametrica, che ha grande applicazione nella computer grafica. Un metodo numericamente stabile per calcolare le curve di Bézier è l'algoritmo di de Casteljau.
+
+<br><br>Una generalizzazione delle curve di Bézier in tre dimensioni è chiamata superficie di Bézier di cui il triangolo di Bézier è uno specifico caso. <br> <br>
+		
+		</p>
+
+		<center>
+			<h2>Storia delle Curve di Bezier</h2>
+		</center>
+		<p>
+			Le curve di Bézier furono largamente pubblicizzate nel 1962 dall'ingegnere francese Pierre Bézier che le usò per disegnare le carrozzerie delle automobili. Le curve furono realizzate nel 1959 da Paul de Casteljau usando l'algoritmo di de Casteljau.
+			Bézier stabilì un modo di realizzare le curve a partire da due punti e una linea vettoriale, un sistema innovativo che permette ancora oggi agli operatori grafici di realizzare disegni curvilinei precisi. Le curve di Bézier possono essere realizzate da molti programmi di grafica vettoriale come Inkscape, GIMP, Corel Draw, Adobe Illustrator, Adobe Photoshop, Adobe After Effects o FreeHand, o di cartografia piana come OCAD.
+			<br>
+		</p>
+
+
+		<center>
+			<h2>Definizione di una curva </h2>
+		</center>
+		<p>
+		I punti Pi sono chiamati punti di controllo per la curva di Bézier. Il poligono formato connettendo i punti attraverso linee rette, iniziando da P0 e finendo con Pn è l'insieme convesso contenente i punti Pi . Questo poligono è chiamato poligono di Bézier, ed esso contiene la curva di Bézier.
+		Di seguito vediamo un esempio di poligono di controllo:
+		<br><br>	
+		<img src="poligono.png" class="center" width="10" height="150 "/>
+	</p>
+		<p>
+			Possiamo avere 3 casi per costruire una curva di Bezier:
+			<br><br>
+			<strong>Lineari	</strong>
+			<br><br>
+			In questo caso abbiamo solamente due punti che vanno a costituire la curva, con la formula
+			<br><br>
+			<img src="lineari.png" class="center" width="50" height="50	"/>
+			<strong>Quadratiche	</strong>
+			<br><br>
+			Stavolta abbiamo 3 punti a costituire la nostra curva, con la seguente formula:
+			<br><br>
+			<img src="quadratiche.png" class="center" width="50" height="50	"/>
+			<strong>Cubiche	</strong>
+			<br><br>
+			I quattro punti P0, P1, P2 e P3 nel piano o in uno spazio tridimensionale definiscono una curva di Bézier cubica. La curva ha inizio in P0 si dirige verso P1 e finisce in P3 arrivando dalla direzione di P2. In generale, essa non passa dai punti P1 o P2; questi punti sono necessari solo per dare alla curva informazioni direzionali. La distanza tra P0 e P1 determina quanto la curva si muove nella direzione di P2 prima di dirigersi verso P3.
+			<br><br>
+			<img src="cubiche.png" class="center" width="50" height="50	"/>
+
+			Questi 3 casi sono i più utilizzati in ambito informatico, in quanto permettono una buona approssimazione e un buon risultato. È possibile creare n possibili punti di controllo che 
+		</p>
+
+	</body>
+
+</html>
