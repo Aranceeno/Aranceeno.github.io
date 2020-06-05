@@ -22,18 +22,26 @@
 <p>
 	All'avvio l'applicazione presenterà già due punti di controllo i quali formano un piccolo tracciato circolare.
 	L'ambiente è completamente 3D, ma per esigenze di fruizione il mondo di gioco è stato settato come se fosse 2D (Anche se tutti gli oggetti in scena sono in tre dimensioni).
-
+	<br>
+	La linea di sfere che collega P0 a P3 la si può vedere solo con il primo punto, ed è solamente un aiuto visivo.
 	<br><br>
-	<img src="inizio.png" class = "center" witdth = 50px height = 250px  />
+	<img src="curva.png" class = "center" witdth = 50px height = 250px  />
 	<br><br>
 	Come possiamo notare abbiamo il punto di controllo in rosso, a cui sono collegati altri due punti di controllo che vanno a definire il nostro poligono.
-	Per aggiungere un punto di controllo basta tenere premuto il tasto control e clickare con il tasto sinistro del mouse nella posizione in cui si vuole il punto di controllo;
+	Per aggiungere un punto di controllo basta tenere premuto il tasto control e cliccare con il tasto sinistro del mouse nella posizione in cui si vuole il punto di controllo;
 	<br>
 	Non è possibile avere meno di 2 punti in scena, e si arriva fino ad un massimo di 6 (si è scelto questo numero dopo alcuni tentativi per avere un risultato valido per poter permettere di giocare)
-	<br>	
-	Durante la fase iniziale possiamo vedere una preview del nostro tracciato attraverso delle sfere bianche che lo vanno a comporre.
+	<br><br>
+	<img src="pista2.png" class = "center" witdth = 50px height = 250px  />
+	<br><br>	
+	Durante la fase iniziale possiamo vedere una preview del nostro tracciato attraverso delle sfere bianche che lo vanno a comporre. Non sarà possibile iniziare la gara se il circuito non è stato chiuso correttamente con il pulsante in alto a destra "Close Track"
+	<br>
+	Il pulsante "Close track" crea altri due punti di controllo aggiuntivi per il primo e ultimo punto della pista e anche questo può essere controllato per dare una forma alla pista.
+	<img src="closeTrack.png" class = "center" witdth = 10px height = 150px  />
 	<br>
 	Quando andiamo ad interagire con il poligono di controllo possiamo vedere interattivamente come il circuito andrà a trasformarsi.
+	<br>
+	<img src="pistaChiusa.png" class = "center" witdth = 10px height = 150px  />
 	<br>
 	Non è possibile avere delle strade sovrapposte, in quanto avrebbe comportato confusione nel giocatore per la direzione da intraprendere.	
 	<br>
@@ -43,9 +51,9 @@
 	<br><br>
 	Il risultato finale sarà il seguente:
 	<br><br>
-	<img src="pista.png" class = "center" witdth = 50px height = 250px  />
+	<img src="pistaFinale.png" class = "center" witdth = 50px height = 200px  />
 	<br><br>
-	Una volta che la gara è iniziata, l'avversario seguirà il percorso dettato dalle curva di Bezier, mentre il giocatore userà i controlli per cercare di vincere la gara.
+	Una volta che la gara è iniziata,in contemporanea e nello stesso punto le due macchine compariranno sulla griglia di partenza, la macchina arancione è controllata dal pc, la macchina verde il giocatore, l'avversario seguirà il percorso dettato dalle curva di Bezier, mentre il giocatore userà i controlli per cercare di vincere la gara.
 	<br>
 	I tasti per usare la macchina sono W,A,S,D rispettivamente per avanti, indietro, sinistra e destra.
 	<br>

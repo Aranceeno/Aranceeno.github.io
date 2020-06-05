@@ -1,6 +1,6 @@
 body
 {
-	background-image:url("background1.jpg");
+	background-color: #92a8d1;
 	background-repeat:repeat-x;
 	background-repeat:repeat-y;
 	background-position:0% 0%; 
@@ -55,12 +55,14 @@ h3 > a
 
 h1 
 {
+	background-color: #80ced6;
 	text-align: center;
 	color: black;
 }
 
 li
 {
+	background-color: #d5f4e6;
 	margin:1px;
 	font-size: 18px;
 	font-style: normal;
@@ -73,7 +75,7 @@ li
 
 dv 
 {
-	font-size: 18px;
+	font-size: 8px;
 	font-style: normal;
 	color: blueviolet;
     display:flex;
