@@ -1,37 +1,25 @@
-<!doctype html>
-
-<html>
-
-	<head>
-		<title>Bezier Racer</title>
-			<link rel="stylesheet" type="text/css" href="Style Sheet.css"/>
-	</head>
-
-	<body>
-
-		<h1>Bezier Racer</h1>
-		<div>
-			<hr />
-				<center>
-					<a href="index.html">Home</a>
-					<a href="teoria.html">Teoria Applicata</a>
-					<a href="manuale.html">Manuale Utente</a>
-					<a href="applicazione.html">Applicazione </a>
-					</center>
-			<hr />
-		</div>
-
-		<br>
-		<center>
-			Il seguente è	 stato realizzato per il corso di "Geometria Computazionale" dell'Università Degli Studi di Milano. <br>
-			Questo &egrave; un semplice gioco di corse, dove dovremmo sconfiggere un avversario che segue le curve di bezier dopo una gara composta da un singolo giro. <br>
-			Lo scopo &egrave; quello di creare un editor per tracciati sfruttando le curve di Bezier e successivamente correre nel tracciato creato. <br>
-			L'applicazione &egrave; stata realizzata mediante il software UNITY 3D. <br>
-			
-			<br><br>
-			<img src="pistaFinale.png" class="center" width="300" height="300"/>
-		</center>
-
-	</body>
-
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Unity WebGL Player | Bezier Curve Demo</title>
+    <link rel="shortcut icon" href="TemplateData/favicon.ico">
+    <link rel="stylesheet" href="TemplateData/style.css">
+    <script src="TemplateData/UnityProgress.js"></script>
+    <script src="Build/UnityLoader.js"></script>
+    <script>
+      var unityInstance = UnityLoader.instantiate("unityContainer", "Build/Sito.json", {onProgress: UnityProgress});
+    </script>
+  </head>
+  <body>
+    <div class="webgl-content">
+      <div id="unityContainer" style="width: 960px; height: 600px"></div>
+      <div class="footer">
+        <div class="webgl-logo"></div>
+        <div class="fullscreen" onclick="unityInstance.SetFullscreen(1)"></div>
+        <div class="title">Bezier Curve Demo</div>
+      </div>
+    </div>
+  </body>
 </html>
