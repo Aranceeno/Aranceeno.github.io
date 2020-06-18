@@ -1062,7 +1062,9 @@ var UnityLoader = UnityLoader || {
           }   
         }
         xhr.onload = function () {
-          var jsonParameters = JSON.parse(xhr.responseText);
+          
+          var jsonParameters = JSON.parse(JSON.stringify(xhr.responseText))
+          JSON.parse(JSON.stringify(xhr.responseText))
           for (var parameter in jsonParameters) {
             if (typeof Module[parameter] == "undefined")
               Module[parameter] = jsonParameters[parameter];
